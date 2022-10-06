@@ -1,0 +1,66 @@
+ASSIGNMENT 2
+
+1) Given an entity named Television, identify its attributes and explain how will you do Abstraction?
+
+ATTRIBUTES:
+-> Cathode Ray Tube
+-> Speakersk
+-> Screen
+-> Body
+-> Ram
+-> Processor
+-> Memory Unit
+-> IO ports
+-> Connectivity modules(Wi-fi, Bluetooth)
+-> Remote
+
+Attributes such as Processor, Cathode ray tube, connectivity modules, speaker, Memory Unit, RAM are the internal parts of the television and are hidden
+and hence such attributes are abstracted...
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Given an entity named Hospital, explain Encapsulation with respect to it
+
+ATTRIBUTES:
+-> Patients
+-> Staff
+     - Doctors
+     - Nurses
+     - Ward Boys
+     - Receptionist
+-> Management
+-> Visitors
+-> Pharmacy
+
+These are the attributes which are encapsulated inside the entity HOSPITAL
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+3) Given an entity named Traffic Signal, Explain polymorphism with respect to it
+
+ATTRIBUTES:
+-> Red Signal
+-> Yellow Signal
+-> Green Signal
+
+Traffic signal is a single component, but it continuously changes it's form according to three different states i.e., Red, Yellow and Green, hence 
+it achieves polymorphism
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+4) Given an entity named BroadBandConnection , explain inheritance with respect to it
+
+We access the internet from Internet Service Provider, and then we distribute the internet by means of wired and wireless connection.
+First we inherit the internet from the ISP and then other devices inherit the internet from the broadband connection. By this way inheritance is achieved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+5) Given an entity named MobilePhone, identify its static and dynamic attributes
+
+STATIC ATTRIBUTES:
+-> Mobile Screen
+-> Ports
+-> Speakers
+-> Power and volume buttons
+-> Rear Camera
+-> Battery
+-> SIM slot allotment
+
+DYNAMIC ATTRIBUTES:
+-> Operating System
+-> RAM
+-> Applications
+-> ROM

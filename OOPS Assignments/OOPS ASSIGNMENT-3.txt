@@ -1,0 +1,48 @@
+ASSIGNMENT - 3
+
+1) Given a class named patient, identify what instance methods could be written in this class.
+-> Instance methods in patients are 
+	- Create a profile for patient or if created previously then ask for patient ID
+	- Check for the disease for which the patient has come
+	- If he had previously for same issue then check the progression in recovery of that disease
+	- If any scanning is required, then proceed with that scanning etc.
+	- If any surgery is required, then proceed with that surgery
+	- If the disease is curable with medicines, then give them the prescription of required medicine
+------------------------------------------------------------------------------------------------------------------------------------
+2) Given a class named CPU, identify the public & private instance members.
+-> Public Instance Member
+	- Plugging in pen drive to install some software, watch movies, etc
+	- Inserting USB/HDMI cables to interface with other devices
+	- Inserting CD to watch movies, play games, listen to music, etc
+	- Plugging in Led lights to make CPU to make it look attractive
+
+   Private Instance Member
+	- Processing of CPU, as it can do multiple tasks like fetching data, decode the data, execute the data
+	  and write back or give the output to user
+	- Design and configuration of CPU is also a private instance member
+
+	These are some of the Private Instance Member of CPU as we can't access it publically as it comes with CPU
+------------------------------------------------------------------------------------------------------------------------------------
+3) Given a class named Media, assume there are 3 objects of this class. Identify the static members of this class. 
+-> The three objects of media are print media, broadcast media, social media
+
+   Static Members of Media Class
+	- In print media, once the content is printed on paper then it can't be changed even if changes are required in them.
+	- In broadcast media, they have to be prepared o details of the news which is going to be delivered, because once 
+	  they go on air, they can't do mistakes as it will be telecasting live.
+------------------------------------------------------------------------------------------------------------------------------------
+4) Given a class named Calculator & its derived classes named Standard and Scientific, identify the method which can be overridden 
+   by the derived classes.
+-> The normal calculator and scientific calculator contain some common methods including:
+	- Addition()
+	- Subtraction()
+	- Division()
+	- Multiplication()
+	- Is equal()
+   These methods can be overridden.
+------------------------------------------------------------------------------------------------------------------------------------
+5) Given the classes Bird, Superman, Aeroplane and Missile, identify the usage of interfaces here. 
+-> Interfaces here are
+	- The common interfaces for all the class are "flight."
+	- Bird and superman can have interfaces like, they both are living things so food, oxygen, shelter.
+	- Common interfaces between aeroplane and missile would be fuel,operator

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <body>
+    <h2>Displaying json in table format</h2>
+    
+    <button type="button" onclick="loadXMLDoc()">Show content</button>
+    <table id="table_body"></table>
+
+    <script>
+        function loadXMLDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("GET", "sample.json", true);
+            xhttp.onreadystatechange = function () {
+                if(this.readyState == 4 && this.status == 200) {
+                    var json = JSON.parse(xhttp.responseText);
+                    createTable(json);
+                }else{
+                    console.log("Error");
+                }
+            };
+
+            xhttp.send();
+        }
+        function createTable(json) {
+            var table_body = document.getElementById("table_body");
+
+            json.forEach((row) => {
+                var tr = document.createElement("tr");
+
+                Object.keys(row).forEach((cell) => {
+                    var td = document.createElement("td");
+                    td.textContent = row[cell];
+                    tr.appendChild(td);
+                });
+
+                table_body.appendChild(tr);
+            });
+        }
+    </script>
+</body>
+</html>

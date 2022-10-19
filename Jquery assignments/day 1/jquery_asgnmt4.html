@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .error {
+            border-color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="demo" placeholder="enter a number" value="">
+    <script>
+       
+
+               $(function () {
+                    $('#demo').focusout(function () {
+                        $(this).addClass("error");
+                    });
+               });
+    </script>
+</body>
+</html>

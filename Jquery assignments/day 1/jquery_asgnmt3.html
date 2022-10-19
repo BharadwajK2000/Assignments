@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+    <h2>Take a cursor on below link to open the </h2>
+    <p id="demo">https://www.google.com</p>
+    <script>
+        $(function () {
+            $('#demo').mouseover(function () {
+                window.open("https://www.google.com");
+            })
+        })
+    </script>
+</body>
+</html>
